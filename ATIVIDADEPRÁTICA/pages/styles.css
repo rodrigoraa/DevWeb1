@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, #a3f4ff, #f0faff);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 28px;
+    color: #003366;
+    font-weight: bold;
+    margin: 30px 0;
+    transition: transform 0.3s;
+}
+h1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.tela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 80vh;
+}
+
+.noticia {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 60%;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.noticia:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.noticia h2 {
+    font-size: 22px;
+    color: #005599;
+    margin-bottom: 10px;
+}
+
+.noticia p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #003366;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.noticia small {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+}

@@ -1,0 +1,3 @@
+PHP é uma linguagem de programação web muito popular. 
+O desenvolvimento web está em constante evolução.
+Frameworks modernos facilitam o desenvolvimento.
