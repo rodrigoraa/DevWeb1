@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6fa;
+  color: #222;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #0057b8;
+}
+
+a {
+  color: #0057b8;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: color 0.2s;
+}
+
+.btn-azul{
+    background: #0057b8;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.btn-azul:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.btnDeletar{
+    background: #b80000;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.btnDeletar:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #003f7d;
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+th {
+  background: #0057b8;
+  color: #fff;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background: #f0f4fa;
+}
+
+tr:hover {
+  background: #e6f0ff;
+}
+
+form {
+  background: #fff;
+  padding: 24px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 14px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b0c4de;
+  border-radius: 4px;
+  font-size: 1rem;
+  background: #f9fbfd;
+}
+
+.botoes{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btnCad,
+input[type="submit"] {
+  background: #0057b8;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.btnCad:hover,
+input[type="submit"]:hover {
+  background: #003f7d;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  table, form {
+    font-size: 0.95rem;
+  }
+  th, td {
+    padding: 8px 6px;
+  }
+  form {
+    padding: 14px 8px;
+  }
+}
+
